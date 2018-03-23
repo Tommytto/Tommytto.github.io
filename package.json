@@ -1,0 +1,28 @@
+{
+  "name": "tommytto.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html -d www --public-url ./",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommytto/tommytto.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tommytto/tommytto.github.io/issues"
+  },
+  "homepage": "https://github.com/Tommytto/tommytto.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "postcss-modules": "^1.1.0"
+  }
+}
